@@ -3,15 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bem-vindo ao Mineland</title>
+  <title>MineLand</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Bem-vindo ao Mineland!</h1>
-    <p id="message">Clique no botão para interagir.</p>
-    <button onclick="changeMessage()">Clique aqui</button>
-  </div>
+  <!-- Barra superior -->
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <h1>MineLand</h1>
+      </div>
+      <div class="nav-links">
+        <a href="https://discord.gg/mine-land" target="_blank" class="btn discord-btn">Discord</a>
+        <a href="mineland.shop" class="btn home-btn">Home</a>
+        <a href="https://discord.gg/mine-land" target="_blank" class="btn support-btn">Suporte</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo provisório do site -->
+  <main>
+    <div class="hero-section">
+      <h2>Bem-vindo ao MineLand</h2>
+      <p>Seu lugar para diversão e aventuras no mundo Minecraft!</p>
+    </div>
+
+    <div class="info-section">
+      <h3>O que é o MineLand?</h3>
+      <p>MineLand é uma comunidade vibrante, dedicada ao Minecraft, com servidores exclusivos, eventos e muito mais. Junte-se a nós e explore novas aventuras!</p>
+    </div>
+
+    <div class="cta-section">
+      <button class="cta-btn" onclick="window.location.href='https://discord.gg/mine-land'">Entre no Discord!</button>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 MineLand. Todos os direitos reservados.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
